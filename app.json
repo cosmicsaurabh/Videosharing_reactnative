@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "usedthings",
+    "scheme": "usedthings",
     "slug": "usedthings",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +19,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package" : "com.saurabh.aura"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
