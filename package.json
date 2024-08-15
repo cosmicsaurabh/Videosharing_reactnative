@@ -1,5 +1,5 @@
 {
-  "name": "usedthings",
+  "name": "vi-sha",
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "expo": "~51.0.28",
     "expo-av": "^14.0.6",
+    "expo-cli": "^6.3.12",
     "expo-constants": "~16.0.2",
     "expo-document-picker": "^12.0.2",
     "expo-image-picker": "~15.0.7",
@@ -26,7 +27,8 @@
     "react-native-screens": "3.31.1",
     "react-native-svg": "^15.2.0",
     "react-native-url-polyfill": "^2.0.0",
-    "tailwind-rn": "^4.2.0"
+    "tailwind-rn": "^4.2.0",
+    "expo-updates": "~0.25.22"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
