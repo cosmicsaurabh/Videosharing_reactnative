@@ -2,7 +2,6 @@
 .env
 # dependencies
 node_modules/
-
 # Expo
 .expo/
 dist/
@@ -27,9 +26,6 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
-
-# local env files
-.env*.local
 
 # typescript
 *.tsbuildinfo
